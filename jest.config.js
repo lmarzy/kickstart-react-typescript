@@ -4,7 +4,7 @@ module.exports = {
     '^.+\\.(ts|tsx)$': '<rootDir>/config/test-preprocessor.js',
   },
   moduleNameMapper: {
-    '\\.(gif|ttf|eot|svg)$': '<rootDir>/mocks/file.js',
+    '\\.(gif|ttf|eot|svg)$': '<rootDir>/mock-file.js',
   },
   testMatch: ['<rootDir>/**/**/*.(test|spec).(ts|tsx|js)'],
 };
